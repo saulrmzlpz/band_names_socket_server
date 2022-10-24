@@ -22,7 +22,7 @@
 
         socket.emit('mensaje', {nombre: 'Saul'});
 
-        sockek.on('mensaje', function(payload){
+        socket.on('mensaje', function(payload){
             console.log('Escuchando ', payload);
         });
     </script>
